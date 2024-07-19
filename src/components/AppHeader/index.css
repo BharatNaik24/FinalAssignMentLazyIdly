@@ -1,0 +1,47 @@
+.leaderHeadContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  opacity: 90%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.hrStyle {
+  height: 7px;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+}
+.hrStyle2 {
+  height: 7px;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+}
+.LeaderHeading {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin: auto;
+    margin-left: auto;
+}
+
+
+.hrOrange {
+  background-color: #FF5F1F;
+}
+
+.hrBlue {
+  background-color: #06b4ff;
+}
+
+.hrContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}

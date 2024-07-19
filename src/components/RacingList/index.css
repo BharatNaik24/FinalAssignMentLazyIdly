@@ -1,0 +1,71 @@
+.bgClassContainer {
+  background-image: url("https://raw.githubusercontent.com/LazyIdli-SoftwareTeam/internshal_project_software/master/assets/image%2065%20(1).png");
+  max-height: 66vh;
+  background-size: cover;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+}
+.raclistMiancont {
+  padding: -10px;
+}
+.bgClassContainer li {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border-bottom-right-radius: 50px;
+  margin: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.footer-text {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+.footer-para {
+  margin: 10 10px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.AddButton {
+  background-color: #45a049;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

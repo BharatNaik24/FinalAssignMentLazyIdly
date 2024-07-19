@@ -1,0 +1,31 @@
+.websiteLogo {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.navContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+    background-color: #1A2B0F;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: -16px;
+}
+.headingLogo {
+    font-size: 24px;
+    margin: 0px;
+    font-family: "Ravie Regular";
+    align-items: center;
+}
+
+.headingPara {
+    font-size: 10px;
+    margin: 0px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: #ffffff;
+}

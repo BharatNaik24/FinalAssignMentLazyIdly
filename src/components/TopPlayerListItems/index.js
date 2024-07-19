@@ -20,10 +20,10 @@ const TopPlayerListItems = (props) => {
           <HeadingName>{name}</HeadingName>
         </SerialNameContainer>
         <TimeContainer>
-          <p>
+          <div className="cashPrizeContainer">
             <FaIndianRupeeSign />
-            {cashPrize}
-          </p>
+            <p className="prize">{cashPrize}</p>
+          </div>
           <p className="timee">{time}</p>
         </TimeContainer>
       </ListItem>

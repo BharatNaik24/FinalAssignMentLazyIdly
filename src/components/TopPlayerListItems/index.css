@@ -9,3 +9,14 @@
     font-weight: 800;
     font-size: 24px;
 }
+.cashPrizeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.prize {
+    font-family: "Roboto";
+    font-size: 22px !important;
+    font-weight: bold;
+}
